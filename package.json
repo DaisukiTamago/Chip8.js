@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "dev": "nodemon chip8-server"
+    },
+    "dependencies": {
+        "console-canvas": "^1.2.0",
+        "delta-time": "^2.0.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    }
+}
