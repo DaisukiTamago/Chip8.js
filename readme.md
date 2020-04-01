@@ -31,6 +31,7 @@ socket.emit('keyStateUpdate',  {value: keyValue, state: false})
 `loadRom` > Causes server to load and run the rom with the which was passed as argument, the server will search by this rom in /ROMS folder  
 `keyStateUpdate` > Chip-8 holds the state of 16 keys (keys are: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F) as user input, when one of these key is pressed or released, you must send to server an object {value: Integer, state: Boolean}, where value is any integer from 0 to 15, and state is a boolean where true means the key is pressed and 0 means the key is not pressed
 
-*This emulator still are in beta stage, some roms can not be executed correctly and the emulator can show some inconsistency*
+*This emulator is still in progess, some roms may not run correctly and the emulator can show some inconsistency*
+
 *Feel free to leave a pull request*
 
