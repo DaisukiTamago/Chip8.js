@@ -4,7 +4,8 @@
 
 This project is a event driven chip-8 emulator running on server-side which sends output data to a Socket.IO client and offers simple API to interact with  
 
-**You can check out a [client example here](https://github.com/DaisukiTamago/Chip8.js-Client)**
+**You can check out a [client example here](https://github.com/DaisukiTamago/Chip8.js-Client)**  
+![](https://github.com/DaisukiTamago/Chip8.js-Client/blob/master/readme_files/chip8_2.png "Chip-8 Client")
 
 # Setup
 After clone repo, just run `npm install` to adquire the dependencies and `npm start` or `node server.js`  to start the server 
