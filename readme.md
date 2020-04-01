@@ -24,7 +24,7 @@ socket.emit('keyStateUpdate',  {value: keyValue, state: false})
 #### Server's output
 `Display` > This event receives the argument PixelArray, an Array of 2048 (Chip-8 original display has the size of 64 x 32) pixels that composes the screen, each pixel can be 0 (A background pixel, you don't have to render it) or 1 (A sprite pixel, must be rendered)  
 `Beep` > When this event is trigerred, your client must emit some sound  
-`Get Roms Response` >This event receives an Array containing the name of all roms inside the /ROMS folder, you can put your own roms into this folder as well
+`GetRomsResponse` >This event receives an Array containing the name of all roms inside the /ROMS folder, you can put your own roms into this folder as well
 
 #### Server's input
 `getRoms` > Causes the server to activate "getRomsResponse" event  
