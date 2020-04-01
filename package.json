@@ -2,8 +2,7 @@
     "type": "module",
     "main": "server.js",
     "scripts": {
-        "start": "nodemon server.js",
-        "dev": "nodemon chip8-server"
+        "start": "node server.js"
     },
     "dependencies": {
         "console-canvas": "^1.2.0",

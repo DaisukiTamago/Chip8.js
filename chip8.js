@@ -104,7 +104,6 @@ class Chip8 extends EventEmitter {
             if(this.jumpFlag == false){
                 this.program_counter += 2
             }
-            console.log(toHex(this.actual_opcode));
             
             if(this.drawFlag){
                 this.emit('display', {data: this.graphics})
