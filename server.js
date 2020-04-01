@@ -10,7 +10,7 @@ var app = express()
 var server = new http.Server(app)
 var io = socketIO(server)
 const PORT = 12345
-var Chip8Instance = new Chip8() 
+var Chip8Instance = new Chip8()
 Chip8Instance.setMaxListeners(0)
 
 app.get('/', (req, res) => {
